@@ -1,0 +1,127 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Forma</title>
+    </head>
+    <body>
+
+        <form method="" action="" name="forma1">
+            <h1>Input type - Text</h1>
+            <input type="text" name="Emri" placeholder="Emri"/>
+
+            <br />
+
+            <h1>Input type - Password</h1>
+            <input type="password" name="Password" placeholder="Password"/>
+
+            <br />
+
+            <h1>Textarea</h1>
+            <textarea name="textarea"></textarea>
+
+            <br />
+
+            <h1>Input type - Radio</h1>
+            <input type="radio" name="gjinia" value="female" checked /> Female
+            <input type="radio" name="gjinia" value="male" /> Male
+
+            <br />
+
+            <h1>Input type - Checkbox</h1>
+            <input type="checkbox" name="hobbies" value="Football" checked/> Football
+            <input type="checkbox" name="hobbies" value="Basketball" />Basketball
+            <input type="checkbox" name="hobbies" value="Tennis" /> Tennis
+
+            <br />
+
+            <h1>Select</h1>
+            <select name="Options">
+                <option></option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <br />
+
+            <h1>Select Multiple</h1>
+            <select name="Options" multiple>
+                <option></option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <br />
+
+            <h1>Input type - File</h1>
+            <input type="file" />
+
+            <br />
+
+            <h1>Input type - Date</h1>
+            <input type="date" min="2015-01-01" max="2018-01-01" />
+
+            <br />
+
+            <h1>Input type - Number</h1>
+            <input type="number" min="0" max="20" />
+
+            <br />
+
+            <h1>Input type - Range</h1>
+            <input type="range" min="0" max="5" />
+
+            <br />
+
+            <h1>Input type - Email</h1>
+            <input type="email"/>
+
+            <br />
+
+            <h1>Input type - URL</h1>
+            <input type="url"/>
+
+            <br />
+
+            <h1>Input type - Search</h1>
+            <input type="search"/>
+
+            <br /><br />
+
+            <h1>Fieldset</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>
+                    Emri:
+                    <input type="text" name="Emri" value="" maxlength="10" required/>
+                </label> <br /><br/>
+                <label>
+                    Mbiemri:
+                    <input type="text" name="Mbiemri" value="" maxlength="10"/>
+                </label> <br /><br/>
+            </fieldset>
+
+            <br />
+
+            <h1>Input type - Submit</h1>
+            <input type="submit" value="Dergo" />
+
+            <br />
+
+            <h1>Input type - Image</h1>
+            <input type="image" src="image/button.png" width="100" height="100" />
+
+            <br />
+
+            <h1>Button</h1>
+            <button type="submit">
+                <img src="image/button.png" alt="button" width="10" height="10" />
+                Dergo
+            </button>
+            
+
+        </form>
+
+    </body>
+</html>
